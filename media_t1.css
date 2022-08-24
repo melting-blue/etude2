@@ -1,0 +1,38 @@
+.wrap{
+   flex-direction: column;
+}
+.wrap aside{
+   flex: 0 1 10%;
+   height: auto;
+   display: flex;
+   flex-wrap:wrap;
+}
+.wrap aside h2{
+   margin: 0;
+   width:10%;
+}
+.wrap aside .nav{
+   width:50%;
+   display: flex;
+}
+.wrap aside .nav li{
+   width:25%;
+}
+.wrap aside .sns{
+   position: static;
+   width:25%;
+   transform: translateX(0) translateY(60px);
+   display: flex;
+}
+.wrap h2 img{
+   width:auto;
+}
+.wrap aside .sns li{
+   width: 50%;
+}
+.wrap aside .sns li:nth-child(1) img{
+   margin-top: auto;
+}
+.wrap aside .sns li:nth-child(2) img{
+   margin-top: auto;
+}

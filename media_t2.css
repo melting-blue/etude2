@@ -1,0 +1,72 @@
+*{transition: all 0.6s;}
+.wrap{
+   flex-direction: column;
+}
+.wrap aside{
+   flex: 0 1 10%;
+   height: auto;
+   display: flex;
+   flex-wrap:wrap;
+}
+.wrap aside h2{
+   margin: 0;
+   width:10%;
+}
+.wrap aside .nav{
+   width:50%;
+   display: flex;
+}
+.wrap aside .nav li{
+   width:25%;
+}
+.wrap aside .sns{
+   position: static;
+   width:25%;
+   transform: translateX(0) translateY(60px);
+   display: flex;
+}
+.wrap h2 img{
+   width:auto;
+}
+.wrap aside .sns li{
+   width: 50%;
+}
+.wrap aside .sns li:nth-child(1) img{
+   margin-top: auto;
+}
+.wrap aside .sns li:nth-child(2) img{
+   margin-top: auto;
+}
+
+main li:nth-child(3) dd p:nth-child(1){
+   flex: 0 1 100%;
+}
+main li:nth-child(3) dd{
+   position: relative;
+}
+main li:nth-child(3) dd p:nth-child(2){
+   position: absolute;
+   z-index: 5;
+   left: -150%;
+   top: 100%;
+   width: 63%;
+   height: 120%;
+}
+main li:nth-child(4){
+   margin-left: 25%;
+}
+main li:nth-child(5),
+main li:nth-child(6){
+   flex: 0 1 50%;
+}
+main li:nth-child(7),
+main li:nth-child(8){
+   flex:0 1 25%;
+}
+main li:nth-child(9){
+   flex:0 1 50%;
+}
+main li:nth-child(10),
+main li:nth-child(11){
+   flex:0 1 25%;
+}

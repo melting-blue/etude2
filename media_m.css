@@ -1,0 +1,16 @@
+.warp aside{
+   flex: 0 1 100%;
+   background: url(img/pic1.jpg) center/cover;
+}
+.wrap aside h2{width: 50%;}
+.wrap main{display: none;}
+.wrap .sns{display: none;}
+.warp aside .nav li{
+   background-color: rgba(16, 34, 138, 0.5);
+   width: 80%;
+   margin: auto;
+   border-radius: 5px;
+}
+.wrap aside .nav li a{
+   color: white;
+}
