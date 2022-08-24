@@ -1,0 +1,19 @@
+.wrap aside{
+    flex:0 1 100%;
+    background: url(./img/pic1.jpg) center/cover;
+}
+
+.wrap aside h2{width:50%;}
+
+.wrap aside .nav li{
+    background: rgba(19, 25, 58, 0.5);
+    width:50%;
+    margin:auto;
+    margin-bottom: 10px;
+    border-radius: 5px;    
+}
+
+.wrap aside .nav li a{color:white;}
+.wrap .sns{display: none;}
+.wrap main{display: none;}
+
